@@ -1,16 +1,413 @@
-<!DOCTYPE html>
-	<head>
-		<title>Home - GJD fan page</title>
-		<script src="js/angular.min.js"></script>
-		<link rel="stylesheet" href="css/gjbava.css">
-	</head>
-	<body bgcolor="black">
-		<div>
-			<table>
-				<tr>
-					<td>
-				</tr>
-			</table>
+<!DOCTYPE HTML>
+<html>
+<head><meta name="viewport" content="width=device-width"/>
+<title>GJD - Fan Page</title>
+<!-- STYLES & JQUERY 
+================================================== -->
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<link rel="stylesheet" type="text/css" href="css/icons.css"/>
+<link rel="stylesheet" type="text/css" href="css/slider.css"/>
+<link rel="stylesheet" type="text/css" href="css/skinblue.css"/><!-- change skin color -->
+<link rel="stylesheet" type="text/css" href="css/responsive.css"/>
+<script src="js/jquery-1.9.0.min.js"></script><!-- the rest of the scripts at the bottom of the document -->
+</head>
+<body>
+<div class="boxedtheme">
+<!-- TOP LOGO & MENU
+================================================== -->
+<div class="grid">
+	<div class="row space-bot">
+		<!--Logo-->
+		<div class="c4">
+			<a href="home.html">
+			<img src="images/logo.png" class="logo" alt="">
+			</a>
 		</div>
-	</body>
+		<!--Menu-->
+		<div class="c8">
+			<nav id="topNav">
+			<ul id="responsivemenu">
+				<li class="active"><a href="main.html"><i class="icon-home homeicon"></i><span class="showmobile">Home</span></a></li>
+				<li><a href="sports.html">Sports</a></li>
+				<li><a href="business.html">Business</a></li>				
+				<li class="last"><a href="charity.html">Charity</a></li>
+				
+			</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<div class="undermenuarea">
+	<div class="boxedshadow">
+	</div>
+	<!-- SLIDER AREA
+	================================================== -->
+	<div id="da-slider" class="da-slider">
+		<!--Slide 1-->
+		<div class="da-slide">
+			<h2> CELEBRITY </h2>
+			<p>
+				With the right, great and stunning looks, GJD takes place among numerous stars and is a true super star.
+			</p>
+			
+			<div class="da-img">
+				<img src="images/silhouette_1.jpg" alt="">
+			</div>
+		</div>
+		<!--Slide 2-->
+		<div class="da-slide">
+			<h2>ENTREPRENEUR </h2>
+			<p>
+				 An excellent entrepreneur, who moved up the ranks very quickly, shocking many across the world.
+			</p>
+			
+			<div class="da-img">
+				<img src="images/silhouette_2.jpg" alt="">
+			</div>
+		</div>
+		<!--Slide 3-->
+		<div class="da-slide">
+			<h2> A STAR PLAYER </h2>
+			<p>
+				 Sports always has been his area, be it soccer or cricket. Even the best ones at the games put fingers on their mouth when he is at action.
+			</p>
+			
+			<div class="da-img">
+				<img src="images/gj_soccer.jpg" alt="">
+			</div>
+		</div>
+		<nav class="da-arrows">
+		<span class="da-arrows-prev"></span>
+		<span class="da-arrows-next"></span>
+		</nav>
+	</div>
+</div>
+<!-- UNDER SLIDER - BLACK AREA
+================================================== -->
+<!-- div class="undersliderblack">
+	<div class="grid">
+		<div class="row space-bot">
+			<div class="c12">
+				<!--Box 1>
+				<div class="c4 introbox introboxfirst">
+					<div class="introboxinner">
+						<span class="homeicone">
+						<i class="icon-bolt"></i>
+						</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					</div>
+				</div>
+				<!--Box 2>
+				<div class="c4 introbox introboxmiddle">
+					<div class="introboxinner">
+						<span class="homeicone">
+						<i class="icon-cog"></i>
+						</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					</div>
+				</div>
+				<!--Box 3>
+				<div class="c4 introbox introboxlast">
+					<div class="introboxinner">
+						<span class="homeicone">
+						<i class="icon-lightbulb"></i>
+						</span>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div-->
+<div class="shadowunderslider">
+</div>
+<!-- START content area
+================================================== -->
+<div class="grid">
+	<div class="row space-bot">
+		<!--INTRO-->
+		
+		<!--Box 1-->
+		<div class="c4">
+			<h2 class="title hometitlebg"><img src="images/Twitter.png" width="20px" height="20px" style="padding-top:1px;"/> Twitter</h2>
+			<div class="noshadowbox">
+				<h5>DELIVERY</h5>
+				<p>
+					 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam hendrerit lacus mattis orci fermentum mollis iaculis purus lobortis. In et purus ut nunc elementum dapibus facilisis in quam.
+				</p>
+				<p class="bottomlink">
+					<a href="#" class="neutralbutton"><i class="icon-link"></i></a>
+				</p>
+			</div>
+		</div>
+		<!--Box 2-->
+		<div class="c4">
+			<h2 class="title hometitlebg"><i class="icon-cog smallrightmargin"></i> Unlimited Colors</h2>
+			<div class="noshadowbox">
+				<h5>QUALITY</h5>
+				<p>
+					 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam hendrerit lacus mattis orci fermentum mollis iaculis purus lobortis. In et purus ut nunc elementum dapibus facilisis in quam.
+				</p>
+				<p class="bottomlink">
+					<a href="#" class="neutralbutton"><i class="icon-link"></i></a>
+				</p>
+			</div>
+		</div>
+		<!--Box 3-->
+		<div class="c4">
+			<h2 class="title hometitlebg"><i class="icon-user" style="margin-right:10px;"></i> MultiPurpose Use</h2>
+			<div class="noshadowbox">
+				<h5>PRICING</h5>
+				<p>
+					 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam hendrerit lacus mattis orci fermentum mollis iaculis purus lobortis. In et purus ut nunc elementum dapibus facilisis in quam.
+				</p>
+				<p class="bottomlink">
+					<a href="#" class="neutralbutton"><i class="icon-link"></i></a>
+				</p>
+			</div>
+		</div>
+	</div>
+	<!-- SHOWCASE
+	================================================== -->
+	<div class="row space-top">
+		<div class="c12 space-top">
+			<h1 class="maintitle ">
+			<span>MERCHANDISE</span>
+			</h1>
+		</div>
+	</div>
+	<div class="row space-bot">
+		<div class="c12">
+			<div class="list_carousel">
+				<div class="carousel_nav">
+					<a class="prev" id="car_prev" href="#"><span>prev</span></a>
+					<a class="next" id="car_next" href="#"><span>next</span></a>
+				</div>
+				<div class="clearfix">
+				</div>
+				<ul id="recent-projects">
+					<!--featured-projects 1-->
+					<li>
+					<div class="featured-projects">
+						<div class="featured-projects-image">
+							<a href="#"><img src="images/gjd_caps.jpg" width="275" height="180" class="imgOpa" alt=""></a>
+						</div>
+						<div class="featured-projects-content">
+							<h1><a href="#">DJG Caps</a></h1>
+							<p>
+								 15% on HDFC Cards
+							</p>
+						</div>
+					</div>
+					</li>
+					<!--featured-projects 2-->
+					<li>
+					<div class="featured-projects">
+						<div class="featured-projects-image">
+							<a href="#"><img src="images/being_djg.jpg" width="275" height="180"  class="imgOpa" alt=""></a>
+						</div>
+						<div class="featured-projects-content">
+							<h1><a href="#">Being DJG T-Shirt </a></h1>
+							<p>
+								 15% on ICICI Cards
+							</p>
+						</div>
+					</div>
+					</li>
+					<!--featured-projects 3-->
+					<li>
+					<div class="featured-projects">
+						<div class="featured-projects-image">
+							<a href="#"><img src="images/gjd_key.jpg" width="275" height="180" class="imgOpa" alt=""></a>
+						</div>
+						<div class="featured-projects-content">
+							<h1><a href="#">DJG Keychains</a></h1>
+							<p>
+								 35% on ICICI Cards
+							</p>
+						</div>
+					</div>
+					</li>
+					<!--featured-projects 4-->
+					<li>
+					<div class="featured-projects">
+						<div class="featured-projects-image">
+							<a href="#"><img src="images/gjd_cover_1.jpg" width="275" height="180" class="imgOpa" alt=""></a>
+						</div>
+						<div class="featured-projects-content">
+							<h1><a href="#">Phone Covers</a></h1>
+							<p>
+								 35% on Standard Chartered Cards
+							</p>
+						</div>
+					</div>
+					</li>
+					<!--featured-projects 5-->
+				</ul>
+				<div class="clearfix">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- CALL TO ACTION 
+	================================================== -->
+	<!--<div class="row space-bot">
+		<div class="c12">
+			<div class="wrapaction">
+				<div class="c9">
+					<h1 class="subtitles">Salique is incredibly awesome, with a refreshingly clean design</h1>
+					 We produce comprehensive mapping of consumers' relationships with communications across bought, owned & earned media based on bespoke insight. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam hendrerit lacus mattis orci fermentum mollis iaculis.
+				</div>
+				<div class="c3 text-center" style="margin-top:40px;">
+					<div class="actionbutton">
+						<i class=" icon-download-alt"></i> DOWNLOAD NOW
+					</div>
+				</div>
+			</div>
+		</div>
+	</div-->
+</div><!-- end grid -->
+
+<!-- FOOTER
+================================================== -->
+<div id="wrapfooter">
+	<div class="grid">
+		<div class="row" id="footer">
+			<!-- to top button  -->
+			<p class="back-top floatright">
+				<a href="#top"><span></span></a>
+			</p>
+			<!-- 1st column -->
+			<div class="c3">
+				<img src="images/logo-footer.png" style="padding-top: 70px;" alt="">
+			</div>
+			<!-- 2nd column -->
+			<div class="c3">
+				<h2 class="title"><i class="icon-twitter"></i> Follow us</h2>
+				<hr class="footerstress">
+				<div id="ticker" class="query">
+				</div>
+			</div>
+			<!-- 3rd column -->
+			<div class="c3">
+				<h2 class="title"><i class="icon-envelope-alt"></i> Contact</h2>
+				<hr class="footerstress">
+				<dl>
+					<dt>GJ Darshan, JAL Building, G R Tech Park</dt>
+					<dt>Whitefield, Bangalore</dt>
+					<dd><span>Telephone:</span>+91 97406 24664</dd>
+					<dd>E-mail: <a href="more.html">dj.darshan@tcs.com</a></dd>
+				</dl>
+				<ul class="social-links" style="margin-top:15px;">
+					<li class="twitter-link smallrightmargin">
+					<a href="#" class="twitter has-tip" target="_blank" title="Follow Us on Twitter">Twitter</a>
+					</li>
+					<li class="facebook-link smallrightmargin">
+					<a href="#" class="facebook has-tip" target="_blank" title="Join us on Facebook">Facebook</a>
+					</li>
+					<li class="google-link smallrightmargin">
+					<a href="#" class="google has-tip" title="Google +" target="_blank">Google</a>
+					</li>
+					<li class="linkedin-link smallrightmargin">
+					<a href="#" class="linkedin has-tip" title="Linkedin" target="_blank">Linkedin</a>
+					</li>
+					<li class="pinterest-link smallrightmargin">
+					<a href="#" class="pinterest has-tip" title="Pinterest" target="_blank">Pinterest</a>
+					</li>
+				</ul>
+			</div>
+			<!-- 4th column -->
+			<div class="c3">
+				<h2 class="title"><i class="icon-link"></i> Links</h2>
+				<hr class="footerstress">
+				<ul>
+					<li>Sports</li>
+					<li>Privacy Policy</li>
+					<li>Cinema</li>
+					<li>Charity</li>
+					<li>Home</li>
+				</ul>
+			</div>
+			<!-- end 4th column -->
+		</div>
+	</div>
+</div>
+<!-- copyright area -->
+<div class="copyright">
+	<div class="grid">
+		<div class="row">
+			<div class="c6">
+				 GJ Darshan &copy; 2017. All Rights Reserved.
+			</div>
+			<div class="c6">
+				<span class="right">
+				Premium Template by WowThemesNet </span>
+			</div>
+		</div>
+	</div>
+</div>
+
+</div>
+<!-- JAVASCRIPTS
+================================================== -->
+<!-- all -->
+<script src="js/modernizr-latest.js"></script>
+
+<!-- menu & scroll to top -->
+<script src="js/common.js"></script>
+
+<!-- slider -->
+<script src="js/jquery.cslider.js"></script>
+
+<!-- cycle -->
+<script src="js/jquery.cycle.js"></script>
+
+<!-- carousel items -->
+<script src="js/jquery.carouFredSel-6.0.3-packed.js"></script>
+
+<!-- twitter -->
+<script src="js/jquery.tweet.js"></script>
+
+<!-- Call Showcase - change 4 from min:4 and max:4 to the number of items you want visible -->
+<script type="text/javascript">
+$(window).load(function(){			
+			$('#recent-projects').carouFredSel({
+				responsive: true,
+				width: '100%',
+				auto: true,
+				circular	: true,
+				infinite	: false,
+				prev : {
+					button		: "#car_prev",
+					key			: "left",
+						},
+				next : {
+					button		: "#car_next",
+					key			: "right",
+							},
+				swipe: {
+					onMouse: true,
+					onTouch: true
+					},
+				scroll : 2000,
+				items: {
+					visible: {
+						min: 4,
+						max: 4
+					}
+				}
+			});
+		});	
+</script>
+
+<!-- Call opacity on hover images from carousel-->
+<script type="text/javascript">
+$(document).ready(function(){
+    $("img.imgOpa").hover(function() {
+      $(this).stop().animate({opacity: "0.6"}, 'slow');
+    },
+    function() {
+      $(this).stop().animate({opacity: "1.0"}, 'slow');
+    });
+  });
+</script>
+</body>
 </html>
