@@ -1,0 +1,37 @@
+[
+  {
+  	"id" : "1", 
+    "ping": "hey bro, you are simply great!!!",
+    "by": "Raghavendra",
+    "likes": "2"
+  },
+  {
+    "tweet": "hey bro, you are awesome and great!!!",
+    "by": "Lokesh",
+    "likes": "1"
+  },
+  {
+  	"id" : "3",
+    "tweet": "hey Darshan, you are  great.. see you in pondy!!!",
+    "by": "Karishma",
+    "likes": "2"
+  },
+  {
+  	"id" : "4",
+    "tweet": "hey Darshan.. treat yavaga!!!",
+    "by": "Bharani",
+    "likes": "100"
+  },
+  {
+    "id" : "5",
+    "tweet": "hey Darshan.. treat yavaga!!!",
+    "by": "Girish",
+    "likes": "4"
+  },
+  {
+    "id" : "6",
+    "tweet": "hey Darshan.. i folloooooooooow you!!!",
+    "by": "Harsha",
+    "likes": "3"
+  }
+]
