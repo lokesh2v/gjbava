@@ -23,7 +23,7 @@ app.controller('gjCtrl', function($scope, $http) {
 	    	$http.get("https://gjfuncpings.azurewebsites.net/api/putPing?code=75Fbf110tKpM4CFrk640CkeAzVDOld4/FrC2Vz56VZ7BPMTIdqa0rg==&user="+$scope.user+"&comments="+$scope.comments)
 	        .then(function(response) {
 	            if (response.status == 200) {
-	            	alert("Thanks for your post!! Please look into what others had to say about GJD under FAN TWEET section.");
+	            	alert("Thanks for your post!! Please REFRESH and look into what others had to say about GJD under FAN TWEET section.");
 	            	$http.get("https://gjfuncpings.azurewebsites.net/api/HttpTriggerJS1?code=064tNeS9kGAm5JmGblleCNmXOpAhrHNyy1aiRwqpkyWZjYqy3KRrjQ==")
 	                .then(function(response) {
 	                    $scope.pings = response.data;
