@@ -236,12 +236,12 @@
 
     function load(widget) {
       var loading = $('<p class="loading">'+s.loading_text+'</p>');
-      if (s.loading_text) $(widget).not(":has(.tweet_list)").empty().append(loading);
-      $.getJSON(build_api_url(), function(data){
+      //if (s.loading_text) $(widget).not(":has(.tweet_list)").empty().append(loading);
+      /*$.getJSON(build_api_url(), function(data){
         var tweets = $.map(data.results || data, extract_template_data);
         tweets = $.grep(tweets, s.filter).sort(s.comparator).slice(0, s.count);
         $(widget).trigger("tweet:retrieved", [tweets]);
-      });
+      });*/
     }
 
     return this.each(function(i, widget){
@@ -267,7 +267,7 @@
 
 $(document).ready(function() {
 	// grab a search stream
-	$.getJSON('http://search.twitter.com/search.json?q=malsup&callback=?', function(json) {
+	/*$.getJSON('http://search.twitter.com/search.json?q=malsup&callback=?', function(json) {
 		// iterate results 
 		$.each(json.results, function() {
 			// buid slide and add to slideshow
@@ -283,7 +283,7 @@ $(document).ready(function() {
 			timeout: 5000,
 			pause: true
 		});
-	});
+	});*/
 });
 
 
